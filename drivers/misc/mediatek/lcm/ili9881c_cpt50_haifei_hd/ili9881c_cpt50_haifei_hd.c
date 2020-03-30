@@ -392,7 +392,7 @@ static unsigned int lcm_compare_id(void)
 // ---------------------------------------------------------------------------
 LCM_DRIVER ili9881c_cpt50_haifei_hd_lcm_drv =
 {
-    .name           = "ili9881c_cpt50_haifei_hd",
+    .name           = "ili9881c_cpt50_haifei_hd_lcm_drv",
     .set_util_funcs = lcm_set_util_funcs,
     .get_params     = lcm_get_params,
     .init           = lcm_init,
