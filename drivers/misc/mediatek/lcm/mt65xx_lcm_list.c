@@ -38,7 +38,9 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(HCT_HX8394F_DSI_VDO_HD_CMI)
 &hct_hx8394f_dsi_vdo_hd_cmi,
 #endif
-
+#if defined(ILI9881C_CPT50_HAIFEI_HD)
+	&ili9881c_cpt50_haifei_hd_lcm_drv,
+#endif
 
 #if defined(HCT_OTM1282_DSI_VDO_HD_AUO)
 &hct_otm1282_dsi_vdo_hd_auo,
